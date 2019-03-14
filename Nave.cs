@@ -56,11 +56,13 @@ namespace Juego_Guerra
             else
                 return ((Marciano)tripulantes[5]).CuantosVivos;
         }
+   
     }
 }
  
 
     
+
       
     
         
