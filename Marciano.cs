@@ -20,7 +20,7 @@ namespace Juego_Guerra
         ///Se hace la clase recibir tiro y se compara con el estado del guerrero y su posición para
         ///poder matarlo.
 
-        public void recibirTiro(int tiro)
+        public void recibirDisparo(int tiro)
         {
             if (_Vivo && _Blanco == tiro)
             {
