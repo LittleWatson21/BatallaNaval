@@ -17,7 +17,7 @@ namespace Juego_Guerra
         
         public bool Vivo
         {
-            get { return _Vivo}
+            get { return _Vivo; }
         }
         public override string ToString()
         {
