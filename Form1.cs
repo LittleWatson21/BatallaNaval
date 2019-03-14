@@ -16,18 +16,6 @@ namespace Juego_Guerra
         {
             InitializeComponent();
         }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            Terricola T1, T2;
-            Marciano M1, M2;
-            M1 = new Marciano("Puga");
-            M2 = new Marciano("Josué");
-            T1 = new Terricola("Lalo");
-            T2 = new Terricola("El Emi");
-            T2.recibirTiro(T1.Disparar());
-
-        }
         Nave nave_terricola, nave_marciano;
         private void Iniciar_Guerra_Click(object sender, EventArgs e)
         {
